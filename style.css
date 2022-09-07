@@ -3,7 +3,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
@@ -64,6 +64,7 @@ a {
 
 .hero button {
     background-color: #3882F6;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #F9FAF8;
     margin-right: auto;
     margin-top: auto;
@@ -75,6 +76,7 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 82px;
 }
 
 .mid h1{
@@ -104,4 +106,27 @@ a {
     text-align: center;
     font-size: 18px;
     color: #1F2937;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 350px;
+}
+
+.quote-section .quote {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote-section .quoted {
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 900;
+
 }
