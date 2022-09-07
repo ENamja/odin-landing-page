@@ -64,12 +64,12 @@ a {
 
 .hero button {
     background-color: #3882F6;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #F9FAF8;
     margin-right: auto;
     margin-top: auto;
     padding: 5px 20px;
     border-radius: 8px;
+    font-weight: 700;
 }
 
 .mid {
@@ -125,8 +125,45 @@ a {
 }
 
 .quote-section .quoted {
+    margin: 0;
     margin-left: auto;
     font-size: 18px;
     font-weight: 900;
 
+}
+
+.bot {
+    display: flex;
+    margin: 80px 400px;
+    padding: 30px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.bot .text {
+    display:  text;
+    flex-direction: column;
+}
+
+.bot .text h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.bot .text p {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.bot button {
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    font-weight: 700;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    margin: auto 0;
 }
